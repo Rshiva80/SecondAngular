@@ -1,0 +1,37 @@
+.counter-container {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+.counter-container h1 {
+  color: #007bff;
+}
+.counter-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-container button:hover {
+  background-color: #218838;
+}
+.counter-container button:active {
+  background-color: #1e7e34;
+}
+.counter-container button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5);
+}
+.counter-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
